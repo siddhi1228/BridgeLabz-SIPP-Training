@@ -1,0 +1,75 @@
+Day 1      [OOPS]
+**************************************************
+                 Question 1
+/////////////////////////////////
+start 
+  class start 
+  class Pet
+     attribute :
+        name , age 
+     constructor (name , age):
+          this.name = name 
+          this.age = age
+   class end
+   class start
+      class Dog extends Pet:
+           attribute :
+               breed
+           constructor(breed):
+               super(name, age)
+               this.breed = breed
+   class end
+   class start 
+       class Cat extends Pet
+             attribute :
+                 colour
+             constructor(colour)
+                 super(name, age)
+                 this.colour = colour
+    class end 
+    class start
+         class Bird extends Pet
+               attribute:
+                    region
+               constructor(region)
+                    super(name , age)
+                    this.region = region
+   class end
+   class start 
+        main
+           user input
+           name , age , breed , colour , region
+
+           Object dog = Dog (name , age , breed)
+           
+           Object cat = Cat(name , age , colour)
+     
+           Object bird = Bird(name , age , region)
+    class end
+end
+////////////////////////////////////////////
+                     Question 2
+///////////////////////////////////////////
+start 
+  class start
+  class Member
+      attribute:
+         name ,  ID , Membership date
+     
+      method check(name , ID , Membership date)
+          validity period = 2 year
+          expiry date = validity period + Membership Date
+          if expiry Date >= current date
+             print invalid
+          else
+              print valid
+    
+   class end 
+   class start
+       main
+           user input
+           name , ID , Membership date
+    class end
+end
+//////////////////////////////////////////////////
+   

@@ -1,0 +1,29 @@
+DAY 1    [GENERICS]
+************************************************
+               Question 5
+//////////////////////////////////////////////
+MAIN:
+    CREATE HashMap scores
+    ADD "Alice" -> 85
+    ADD "Bob" -> 92
+    ADD "Charlie" -> 78
+
+    FIND entry with maximum value using stream
+    STORE the key of that entry in topStudent
+    PRINT topStudent
+
+/////////////////////////////////////////////////////
+                   Question 6
+////////////////////////////////////////////////////
+CLASS Employee
+    ATTRIBUTES: name, department
+    CONSTRUCTOR(name, department)
+        SET attributes
+
+MAIN:
+    CREATE ArrayList employees
+    ADD employees with names and departments
+
+    FILTER list to include only employees with department = "IT"
+    PRINT names of filtered employees
+//////////////////////////////////////////////////////////
